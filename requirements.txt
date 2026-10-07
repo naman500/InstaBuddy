@@ -1,0 +1,30 @@
+# Core V1 dependencies.
+# Versions are pinned loosely for the first implementation and should be
+# tightened once the application is stable (see prd.md, Technology stack).
+
+# Instagram access
+instaloader>=4.12
+
+# UI
+streamlit>=1.37
+
+# HTTP
+requests>=2.32
+
+# Data models / validation
+pydantic>=2.8
+
+# Configuration
+python-dotenv>=1.0
+
+# Google Drive (Drive API v3 + OAuth)
+google-api-python-client>=2.140
+google-auth>=2.33
+google-auth-oauthlib>=1.2
+
+# Browser-based Instagram login (uses installed Google Chrome, or run
+# `playwright install chromium` if Chrome is not available)
+playwright==1.63.0
+
+# Testing
+pytest>=8.3

@@ -1,0 +1,44 @@
+# Secrets and credentials - never commit these
+.env
+.streamlit/secrets.toml
+client_secret*.json
+credentials.json
+
+# Instagram sessions
+sessions/*
+!sessions/.gitkeep
+
+# Google OAuth token cache
+tokens/*
+!tokens/.gitkeep
+
+# Downloaded media
+downloads/*
+!downloads/.gitkeep
+
+# Local database
+data/manifest.db
+data/manifest.db-journal
+data/manifests/*
+!data/manifests/.gitkeep
+
+# Temp staging
+temp/
+logs/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# OS / editor
+.DS_Store
+.idea/
+*.swp
+.kiro/

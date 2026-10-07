@@ -1,0 +1,15 @@
+{
+  "cleanup_temp_files": true,
+  "default_destination": "DRIVE_ONLY",
+  "download_dir": "downloads",
+  "drive_root_folder": "Instagram-Knowledge-Base",
+  "log_level": "INFO",
+  "max_upload_retries": 3,
+  "organize_by_date_folder": true,
+  "organize_by_month": false,
+  "organize_by_shortcode": true,
+  "organize_by_username": true,
+  "organize_by_year": false,
+  "temp_dir": "temp",
+  "upload_chunk_size": 5242880
+}
